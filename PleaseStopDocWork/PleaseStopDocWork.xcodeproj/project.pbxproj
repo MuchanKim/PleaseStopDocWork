@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D12C1328302B748E00F26CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12C1312302B748C00F26CC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12C1319302B748C00F26CC8;
+			remoteInfo = PleaseStopDocWork;
+		};
+		D12C1332302B748E00F26CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12C1312302B748C00F26CC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12C1319302B748C00F26CC8;
+			remoteInfo = PleaseStopDocWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D12C131A302B748C00F26CC8 /* PleaseStopDocWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PleaseStopDocWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12C1327302B748E00F26CC8 /* PleaseStopDocWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PleaseStopDocWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12C1331302B748E00F26CC8 /* PleaseStopDocWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PleaseStopDocWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D12C134E302B74BE00F26CC8 /* Exceptions for "PleaseStopDocWork" folder in "PleaseStopDocWork" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/PleaseStopDocWorkTests/Interactor/DocumentWorkspaceInteractorTests.swift,
+				Tests/PleaseStopDocWorkTests/Interface/Presenter/DocumentWorkspacePresenterTests.swift,
+				Tests/PleaseStopDocWorkUITests/PleaseStopDocWorkUITests.swift,
+				Tests/PleaseStopDocWorkUITests/PleaseStopDocWorkUITestsLaunchTests.swift,
+			);
+			target = D12C1319302B748C00F26CC8 /* PleaseStopDocWork */;
+		};
+		D12C134F302B74BE00F26CC8 /* Exceptions for "PleaseStopDocWork" folder in "PleaseStopDocWorkTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/PleaseStopDocWorkTests/Interactor/DocumentWorkspaceInteractorTests.swift,
+				Tests/PleaseStopDocWorkTests/Interface/Presenter/DocumentWorkspacePresenterTests.swift,
+			);
+			target = D12C1326302B748E00F26CC8 /* PleaseStopDocWorkTests */;
+		};
+		D12C1350302B74BE00F26CC8 /* Exceptions for "PleaseStopDocWork" folder in "PleaseStopDocWorkUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/PleaseStopDocWorkUITests/PleaseStopDocWorkUITests.swift,
+				Tests/PleaseStopDocWorkUITests/PleaseStopDocWorkUITestsLaunchTests.swift,
+			);
+			target = D12C1330302B748E00F26CC8 /* PleaseStopDocWorkUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D12C131C302B748C00F26CC8 /* PleaseStopDocWork */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D12C134E302B74BE00F26CC8 /* Exceptions for "PleaseStopDocWork" folder in "PleaseStopDocWork" target */,
+				D12C134F302B74BE00F26CC8 /* Exceptions for "PleaseStopDocWork" folder in "PleaseStopDocWorkTests" target */,
+				D12C1350302B74BE00F26CC8 /* Exceptions for "PleaseStopDocWork" folder in "PleaseStopDocWorkUITests" target */,
+			);
+			path = PleaseStopDocWork;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D12C1317302B748C00F26CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12C1324302B748E00F26CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12C132E302B748E00F26CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D12C1311302B748C00F26CC8 = {
+			isa = PBXGroup;
+			children = (
+				D12C131C302B748C00F26CC8 /* PleaseStopDocWork */,
+				D12C131B302B748C00F26CC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D12C131B302B748C00F26CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12C131A302B748C00F26CC8 /* PleaseStopDocWork.app */,
+				D12C1327302B748E00F26CC8 /* PleaseStopDocWorkTests.xctest */,
+				D12C1331302B748E00F26CC8 /* PleaseStopDocWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D12C1319302B748C00F26CC8 /* PleaseStopDocWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12C133B302B748E00F26CC8 /* Build configuration list for PBXNativeTarget "PleaseStopDocWork" */;
+			buildPhases = (
+				D12C1316302B748C00F26CC8 /* Sources */,
+				D12C1317302B748C00F26CC8 /* Frameworks */,
+				D12C1318302B748C00F26CC8 /* Resources */,
+				D12C18B3302B78D600F26CC8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D12C131C302B748C00F26CC8 /* PleaseStopDocWork */,
+			);
+			name = PleaseStopDocWork;
+			packageProductDependencies = (
+			);
+			productName = PleaseStopDocWork;
+			productReference = D12C131A302B748C00F26CC8 /* PleaseStopDocWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D12C1326302B748E00F26CC8 /* PleaseStopDocWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12C133E302B748E00F26CC8 /* Build configuration list for PBXNativeTarget "PleaseStopDocWorkTests" */;
+			buildPhases = (
+				D12C1323302B748E00F26CC8 /* Sources */,
+				D12C1324302B748E00F26CC8 /* Frameworks */,
+				D12C1325302B748E00F26CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12C1329302B748E00F26CC8 /* PBXTargetDependency */,
+			);
+			name = PleaseStopDocWorkTests;
+			packageProductDependencies = (
+			);
+			productName = PleaseStopDocWorkTests;
+			productReference = D12C1327302B748E00F26CC8 /* PleaseStopDocWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D12C1330302B748E00F26CC8 /* PleaseStopDocWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12C1341302B748E00F26CC8 /* Build configuration list for PBXNativeTarget "PleaseStopDocWorkUITests" */;
+			buildPhases = (
+				D12C132D302B748E00F26CC8 /* Sources */,
+				D12C132E302B748E00F26CC8 /* Frameworks */,
+				D12C132F302B748E00F26CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12C1333302B748E00F26CC8 /* PBXTargetDependency */,
+			);
+			name = PleaseStopDocWorkUITests;
+			packageProductDependencies = (
+			);
+			productName = PleaseStopDocWorkUITests;
+			productReference = D12C1331302B748E00F26CC8 /* PleaseStopDocWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D12C1312302B748C00F26CC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					D12C1319302B748C00F26CC8 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					D12C1326302B748E00F26CC8 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = D12C1319302B748C00F26CC8;
+					};
+					D12C1330302B748E00F26CC8 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = D12C1319302B748C00F26CC8;
+					};
+				};
+			};
+			buildConfigurationList = D12C1315302B748C00F26CC8 /* Build configuration list for PBXProject "PleaseStopDocWork" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ko,
+				Base,
+			);
+			mainGroup = D12C1311302B748C00F26CC8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D12C131B302B748C00F26CC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D12C1319302B748C00F26CC8 /* PleaseStopDocWork */,
+				D12C1326302B748E00F26CC8 /* PleaseStopDocWorkTests */,
+				D12C1330302B748E00F26CC8 /* PleaseStopDocWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D12C1318302B748C00F26CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12C1325302B748E00F26CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12C132F302B748E00F26CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D12C18B3302B78D600F26CC8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat > /dev/null; then\n  swiftformat . --swift-version 6\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D12C1316302B748C00F26CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12C1323302B748E00F26CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12C132D302B748E00F26CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D12C1329302B748E00F26CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12C1319302B748C00F26CC8 /* PleaseStopDocWork */;
+			targetProxy = D12C1328302B748E00F26CC8 /* PBXContainerItemProxy */;
+		};
+		D12C1333302B748E00F26CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12C1319302B748C00F26CC8 /* PleaseStopDocWork */;
+			targetProxy = D12C1332302B748E00F26CC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D12C1339302B748E00F26CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = F7T7NU8578;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D12C133A302B748E00F26CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = F7T7NU8578;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D12C133C302B748E00F26CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7T7NU8578;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moolab.PleaseStopDocWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		D12C133D302B748E00F26CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7T7NU8578;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moolab.PleaseStopDocWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		D12C133F302B748E00F26CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7T7NU8578;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moolab.PleaseStopDocWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PleaseStopDocWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PleaseStopDocWork";
+			};
+			name = Debug;
+		};
+		D12C1340302B748E00F26CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7T7NU8578;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moolab.PleaseStopDocWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PleaseStopDocWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PleaseStopDocWork";
+			};
+			name = Release;
+		};
+		D12C1342302B748E00F26CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7T7NU8578;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moolab.PleaseStopDocWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = PleaseStopDocWork;
+			};
+			name = Debug;
+		};
+		D12C1343302B748E00F26CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7T7NU8578;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moolab.PleaseStopDocWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = PleaseStopDocWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12C1315302B748C00F26CC8 /* Build configuration list for PBXProject "PleaseStopDocWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12C1339302B748E00F26CC8 /* Debug */,
+				D12C133A302B748E00F26CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12C133B302B748E00F26CC8 /* Build configuration list for PBXNativeTarget "PleaseStopDocWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12C133C302B748E00F26CC8 /* Debug */,
+				D12C133D302B748E00F26CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12C133E302B748E00F26CC8 /* Build configuration list for PBXNativeTarget "PleaseStopDocWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12C133F302B748E00F26CC8 /* Debug */,
+				D12C1340302B748E00F26CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12C1341302B748E00F26CC8 /* Build configuration list for PBXNativeTarget "PleaseStopDocWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12C1342302B748E00F26CC8 /* Debug */,
+				D12C1343302B748E00F26CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D12C1312302B748C00F26CC8 /* Project object */;
+}
