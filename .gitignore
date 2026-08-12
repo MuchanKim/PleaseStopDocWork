@@ -1,0 +1,94 @@
+#------------------
+# Xcode
+#------------------
+
+# 사용자별 Xcode 설정 파일
+xcuserdata/
+!*.xcodeproj/xcshareddata/
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Xcode 8 이전 버전 호환성 파일
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode 3 이전 버전 호환성 파일
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+#------------------
+# 빌드 결과물
+#------------------
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+#------------------
+# Playground
+#------------------
+timeline.xctimeline
+playground.xcworkspace
+
+#------------------
+# Swift Package Manager
+#------------------
+.build/
+# Packages/
+# Package.pins
+# Package.resolved
+# .swiftpm
+
+#------------------
+# CocoaPods
+#------------------
+# Pods/
+# *.xcworkspace
+
+#------------------
+# Carthage
+#------------------
+Carthage/Build/
+
+#------------------
+# 기타 의존성 관리
+#------------------
+Dependencies/
+.accio/
+
+#------------------
+# fastlane
+#------------------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+#------------------
+# 기타
+#------------------
+iOSInjectionProject/
+.DS_Store
+*.xcuserstate
+**/Preview Content
+
+#------------------
+# 로컬 에이전트 및 프로젝트 규칙
+#------------------
+/AGENTS.md
+/.agents/
+/.codex/
+
+#------------------
+# 템플릿 원본 파일
+#------------------
+/.gitignore.txt
+/gitattributes.txt
